@@ -1,3 +1,10 @@
+# Changes in this fork.
+Make the example accessible using python Flask.
+
+Looking at the examples, this is the most awesome straight forward graphing tool!
+
+Thanks Novus/nvd3
+
 # NVD3 - v1.1.10-beta
 ## Release notes for version 1.1.10 beta
 * Line charts now have a new tooltip option available. This new tooltip displays all series information at once, and shows up anywhere your mouse moves.
