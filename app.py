@@ -203,7 +203,7 @@ def test_polylinearTest():
 @app.route('/test/realTimeChartTest.html')
 def test_realTimeChartTest():
     return render_template('test/realTimeChartTest.html') 
-
+"""
 @app.route('/images/grey-plus.png')
 def test_realTimeChartTest():
     return send_file('static/images/grey-plus.png', mimetype='image/png')
@@ -215,7 +215,7 @@ def test_realTimeChartTest():
 @app.route('/images/nvd3_sampleLineChart1.png')
 def test_realTimeChartTest():
     return send_file('static/images/nvd3_sampleLineChart1.png', mimetype='image/png')
-
+"""
 
 if __name__ == "__main__":
     app.run(debug=True, port=8000)
