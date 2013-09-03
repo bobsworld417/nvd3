@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 
-<link href="../src/nv.d3.css" rel="stylesheet" type="text/css">
-<link href="teststyle.css" rel="stylesheet" type='text/css'>
+<link href="{{ url_for('static', filename='src/nv.d3.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ url_for('static', filename='teststyle.css') }}" rel="stylesheet" type='text/css'>
 
 <body>
 	 <div class='navigation'>
@@ -23,18 +23,18 @@
 </div>
 
 
-<script src="../lib/d3.v3.js"></script>
-<script src="../nv.d3.js"></script>
-<script src="../src/tooltip.js"></script>
-<script src="../src/utils.js"></script>
-<script src="../src/interactiveLayer.js"></script>
-<script src="../src/models/legend.js"></script>
-<script src="../src/models/axis.js"></script>
-<script src="../src/models/scatter.js"></script>
-<script src="../src/models/line.js"></script>
-<script src="../src/models/lineChart.js"></script>
-<script src="../src/models/historicalBar.js"></script>
-<script src="../src/models/historicalBarChart.js"></script>
+<script src="{{ url_for('static', filename='lib/d3.v3.js') }}"></script>
+<script src="{{ url_for('static', filename='nv.d3.js') }}"></script>
+<script src="{{ url_for('static', filename='src/tooltip.js') }}"></script>
+<script src="{{ url_for('static', filename='src/utils.js') }}"></script>
+<script src="{{ url_for('static', filename='src/interactiveLayer.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/legend.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/axis.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/scatter.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/line.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/lineChart.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/historicalBar.js') }}"></script>
+<script src="{{ url_for('static', filename='src/models/historicalBarChart.js') }}"></script>
 
 <script>
 var chart;

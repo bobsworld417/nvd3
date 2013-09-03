@@ -216,6 +216,5 @@ def test_realTimeChartTest():
 def test_realTimeChartTest():
     return send_file('static/images/nvd3_sampleLineChart1.png', mimetype='image/png')
 """
-
 if __name__ == "__main__":
     app.run(debug=True, port=8000)
